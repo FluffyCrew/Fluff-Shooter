@@ -1,3 +1,3 @@
 # Fluff-Shooter
 2D shoot'em-up
-Geralt is cool
+Geralt is cool, really
