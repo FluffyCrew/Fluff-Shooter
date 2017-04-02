@@ -1,6 +1,8 @@
 # depslib dependency file v1.0
-1491137589 source:c:\users\srynan\fluffshooter\fluff-shooter\src\main.cpp
+1491139449 source:c:\users\srynan\fluffshooter\fluff-shooter\src\main.cpp
 	<iostream>
+	<stdio.h>
+	<string>
 	<SDL.h>
 
 1476935975 c:\users\srynan\fluffshooter\fluff-shooter\sdl2-2.0.5\x86_64-w64-mingw32\include\sdl2\sdl.h
