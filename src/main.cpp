@@ -1,6 +1,6 @@
 #include <iostream>
 #include <stdio.h>
-#include<string>
+#include <string>
 #include <SDL.h>
 
 using namespace std;
@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
     }
     else
     {
-        window = SDL_CreateWindow( "SDL Tutorial", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
+        window = SDL_CreateWindow( "ayy", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
         if(window == NULL)
         {
             printf("Window could not be created. SDL_Error: %s\n", SDL_GetError());
@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
                 SDL_Quit();
                 return 1;
             }
-            SDL_Surface *bmp = SDL_LoadBMP((string(SDL_GetBasePath()) + string("\\FrogInACar.bmp")).c_str());
+            SDL_Surface *bmp = SDL_LoadBMP((string(SDL_GetBasePath()) + string("\\about5.bmp")).c_str());
             if (bmp == NULL)
             {
                 SDL_DestroyRenderer(ren);
